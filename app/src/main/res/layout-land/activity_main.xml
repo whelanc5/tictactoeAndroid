@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"   android:layout_gravity="center_horizontal">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/square1"
+
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="@string/square1"
+
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/square2"
+
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="@string/square2"
+
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/square3"
+
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="@string/square3"
+
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/square4"
+
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="@string/square4"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/square5"
+
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="@string/square5"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/square6"
+
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="@string/square6"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/square7"
+
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="@string/square7"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/square8"
+
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="@string/square8"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/square9"
+
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="@string/square9"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+        </TableRow>
+
+        <TableRow>
+
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="289dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_span="3"
+        android:text="@string/status"
+        android:textAlignment="center"
+        android:typeface="normal" />
+</LinearLayout>

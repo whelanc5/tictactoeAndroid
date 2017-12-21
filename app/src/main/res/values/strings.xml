@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TicTacToeConsole</string>
+    <string name="square1"></string>
+    <string name="square2"></string>
+    <string name="square3"></string>
+    <string name="square4"></string>
+    <string name="square5"></string>
+    <string name="square6"></string>
+    <string name="square7"></string>
+    <string name="square8"></string>
+    <string name="square9"></string>
+    <string name="status">"X's Turn"</string>
+    <string name="newgame">"New Game"</string>
+</resources>
